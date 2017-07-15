@@ -202,23 +202,7 @@
   <div class="control-sidebar-bg"></div>
 
 <!-- ./wrapper -->
- <script type="text/javascript">
-    
-    $(document).ready(function(){
-      $("#Swap").on("click",function(){
-        <?php
-            if($_SESSION["borrower"] == true){
-              $_SESSION["borrower"] = false;
-              $_SESSION["lender"] = true;
-            }else{
-              $_SESSION["borrower"] = true;
-              $_SESSION["lender"] = false;
-            }
-            
-        ?>
-      });
-    });
-  </script>
+
 
 <script src="plugins/jQuery/jquery-3.1.1.min.js"></script>
 <!-- jQuery UI 1.11.4 -->

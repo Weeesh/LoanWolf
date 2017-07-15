@@ -7,10 +7,6 @@
 		<input type="number" name="borrower-amt" placeholder="Enter an amount"> PHP
 	</div>
 </div>
-<div class="content-wrapper alert-info" style="padding: 1.5%; display: 'none'">
-	<div class="jumbotron text-center">
-		<b style="color: black; font-size: 40px;">BORROWER</b>
-	</div>
-</div>
+
 
 

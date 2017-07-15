@@ -1,12 +1,12 @@
 <?php 
 	session_start();
   include("header.html");
-  $_SESSION["borrower"] = true;
+  $_SESSION["borrower"] = false;
   $_SESSION["lender"] = false;
 
 
 
-  include("Sidebaru.html");
+  include("LoginPage.php");
 
   if($_SESSION["borrower"] == true){
   	include("BorrowerSu.php");
