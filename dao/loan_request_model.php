@@ -3,5 +3,5 @@
 	if(!$con){
 		echo "Error DB connection";
 	}
-	session_start();
+	// session_start();
 ?>

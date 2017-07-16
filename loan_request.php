@@ -40,7 +40,6 @@
 			<select name="collateral_id">
 			<?php 
 				
-				include('dao/loan_request_model_display.php');  
 			?>
 			<button type="button" name="submit">Click Me!</button>
 
